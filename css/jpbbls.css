@@ -2267,3 +2267,124 @@ a.post-thumbnail:hover img {
 		margin-top: 0.71428em;
 	}
 }
+/* appendages */
+.package-meta {
+ font-size:14px
+}
+.package-meta .time {
+ color:#9e9b95
+}
+.package-meta .card-name {
+ margin-right:20px;
+ font-size:16px;
+ float:left
+}
+.package-meta h3 {
+ margin:0;
+ font-size:22px
+}
+.package-meta h4 {
+ margin:10px 0 0;
+ font-weight:bold;
+ font-size:16px;
+ clear:both
+}
+.package-meta h4:first-child {
+ margin-top:0
+}
+.package-meta ul {
+ display:table;
+ width:100%;
+ border:1px solid #ddd;
+ padding-left:0;
+ margin-top:0;
+ border-radius:3px
+}
+.package-meta ul li {
+ display:table-cell;
+ list-style-type:none;
+ width:1%;
+ text-align:center;
+ border-right:1px solid #ddd;
+ padding:0;
+ white-space:nowrap
+}
+.package-meta ul li a {
+ color:#574c4f;
+ height:100%;
+ width:100%;
+ padding:5px;
+ display:block;
+ transition:color 0.2s;
+ -o-transform:color 0.2s;
+ -moz-transform:color 0.2s;
+ -webkit-transition:color 0.2s
+}
+.package-meta ul li a.disabled {
+ color:#bdb3b5
+}
+.package-meta ul li a.disabled:hover {
+ color:#bdb3b5
+}
+.package-meta ul li a:hover {
+ text-decoration:none;
+ color:#3b9b6d
+}
+.package-meta ul li a .octicon {
+ margin-right:3px
+}
+.package-meta ul li:last-child {
+ border-right:0
+}
+.package-meta .show-flag {
+ float:right;
+ color:#999;
+ transition:color 0.2s;
+ -o-transform:color 0.2s;
+ -moz-transform:color 0.2s;
+ -webkit-transition:color 0.2s
+}
+.package-meta .show-flag:hover {
+ text-decoration:none;
+ color:#3b9b6d
+}
+.package-meta table {
+ width:100%;
+ border:1px solid #ddd;
+ border-collapse:collapse
+}
+.package-meta table td {
+ border:1px solid #ddd;
+ text-align:center;
+ padding:0
+}
+.package-meta table a {
+ color:#574c4f;
+ height:100%;
+ width:100%;
+ padding:5px;
+ display:block
+}
+.package-meta .author {
+ line-height:0
+}
+.package-meta .author img {
+ display:inline-block;
+ vertical-align:top;
+ height:20px;
+ width:20px
+}
+.package-meta .package-card .card-name {
+ margin-bottom:5px;
+ font-size:24px
+}
+.package-meta .package-card .card-description {
+ white-space:normal;
+ line-height:1.4
+}
+.package-meta .css-truncate-target {
+ max-width:100%
+}
+.package-meta .minibutton {
+ margin-top:20px
+}
